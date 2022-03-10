@@ -46,7 +46,7 @@
 .dsmovie-card-bottom-container h3 {
     color: #ffffff;
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 700;
     margin-bottom: 10px;
     min-height: 40px;
@@ -54,12 +54,10 @@
 
 .dsmovie-btn {
     background-color: var(--color-primary);
-    font-size: 14px;
     font-weight: 700;
     height: 40px;
     width: 180px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: none;
 }
