@@ -1,9 +1,10 @@
 header {
     background: rgb(61, 19, 198);
-    background: linear-gradient(0deg, rgb(91, 47, 236) 0%, rgba(45, 45, 45, 1) 100%);
+    background: linear-gradient(0deg, rgb(91, 47, 236) 10%, rgba(45, 45, 45, 1) 100%);
     height: 60px;
     display: flex;
     align-items: center;
+    border-bottom: 1px solid white;
 }
 
 .dsmovie-nav-cotent {
