@@ -18,8 +18,8 @@ function FormCard({ movieId }: Props) {
         axios.get(`${BASE_URL}/movies/${movieId}`)
             .then(respnse => {
                 setMovie(respnse.data);
-            })
-    }, [movieId]);
+            });
+    })
 
     const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
 
@@ -42,7 +42,7 @@ function FormCard({ movieId }: Props) {
             }
         }
 
-        axios(config).then(response=>{
+        axios(config).then(response => {
             navigate("/");
         })
     }
